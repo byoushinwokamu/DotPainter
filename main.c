@@ -45,8 +45,8 @@ int main(int argc, char **argv) {
     print();
   }
   printf("\nTerminated Painting.\n");
-  printf("Hex code is 0x%llX\n", canvas);
-  printf("Dec code is %llu\n", canvas);
+  printf("Hex code is 0x%llXULL\n", canvas);
+  printf("Dec code is %lluULL\n", canvas);
 
   return 0;
 }
